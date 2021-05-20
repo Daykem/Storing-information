@@ -95,5 +95,3 @@ while (1):
 
     if (quest == "q"):
         exit(0)
-    
-
