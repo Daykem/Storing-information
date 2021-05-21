@@ -19,15 +19,16 @@ On window/Linux
 
 ## **When the project are running you have 4 possibility:**
 
-Add a new student with their grades
+###### Add a new student with their grades
 > a
+When you add new student you need: fistname lastname, design grade, implementation grade, testing grade, documentation grade
 
-Look the statistics of the students
+###### Look the statistics of the students
 > s
 
-Create a CSV file
+###### Create a CSV file
 > csv
 
-Quit
+###### Quit
 > q
 
