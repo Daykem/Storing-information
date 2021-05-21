@@ -1,6 +1,6 @@
 import sys
-sys.path.append("..")
-from src.someproject import SomeProject
+#sys.path.append("..")
+#from src.someproject import SomeProject
 import unittest
 
 class TestStringMethods(unittest.TestCase):
