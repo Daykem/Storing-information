@@ -15,7 +15,7 @@
 - Development of the required methods
 - Development of the grade unit tests
 
-### 4: Create method for calculate statistic (1 hour)
+### 4: Create method for calculate statistics (1 hour)
 - Create average function
 - Create variance function
 - Create standard deviation function

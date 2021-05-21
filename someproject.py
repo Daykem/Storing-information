@@ -23,7 +23,7 @@ def stdev(data):
 
 
 # path of database file
-f = "../database.txt"
+f = "database.txt"
 
 # Top of the table
 d = {'': ['Design','Implementation','Testing', "Documentation"]}
@@ -61,10 +61,10 @@ while (1):
         add_note = "\n"+ name + " " + design + " " + implementation + " " + testing + " " + documentation + ""
 
         # Add on database
-        f = open("../database.txt", "a")
+        f = open("database.txt", "a")
         f.write(add_note)
 
-        f = "../database.txt"
+        f = "database.txt"
         d = {'': ['Design','Implementation','Testing', "Documentation"]}
 
         # Refresh table
@@ -85,7 +85,7 @@ while (1):
 
         # Display statistics
     if (quest == "s"):
-        filename = "../database.txt"
+        filename = "database.txt"
         statistique = {'': ['Average','Standard Deviation','Minimum Grade', "Maximum Grade"]}
 
         # Calc statistics
