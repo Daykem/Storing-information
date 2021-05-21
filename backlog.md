@@ -1,6 +1,6 @@
 # Backlog
 
-### 1 : Task estimation (1 hour)
+### 1 : Structure (1 hour)
 - Select the language to use
 - Estimate tasks
 - Structure the project
