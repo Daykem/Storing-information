@@ -17,7 +17,7 @@ On window/Linux
 ## Run project
 > python3 someproject.py
 
-**When the project are running you have 4 possibility:**
+## **When the project are running you have 4 possibility:**
 
 Add a new student with their grades
 > a
