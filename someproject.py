@@ -26,12 +26,12 @@ def stdev(data):
 f = "database.txt"
 
 # Top of the table
-d = {'': ['Design','Implementation','Testing', "Documentation"]}
+rubric = {'': ['Design','Implementation','Testing', "Documentation"]}
 
 # Top of the table for csv file
 tabcsv = [['', 'Design','Implementation','Testing', "Documentation"]]
 
-# Read database file and stock into object table variable "d"
+# Read database file and stock into object table variable "rubric"
 with open(f, "r") as fp:
     line = fp.readline().strip()
     cnt = 0
@@ -40,10 +40,10 @@ with open(f, "r") as fp:
         value = [a[2], a[3], a[4], a[5]]
         line = fp.readline().strip()
         cnt += 1
-        d[a[0] + " " + a[1]] = value
+        rubric[a[0] + " " + a[1]] = value
 
 # Print table
-for k, v in d.items():
+for k, v in rubric.items():
     lang, perc, change, doc = v
     print ("{:<18} {:<10} {:<15} {:<11} {:<11}".format(k, lang, perc, change, doc))
 
@@ -64,11 +64,11 @@ while (1):
         f = open("database.txt", "a")
         f.write(add_note)
 
-        f = "database.txt"
-        d = {'': ['Design','Implementation','Testing', "Documentation"]}
+        dbname = "database.txt"
+        rubric = {'': ['Design','Implementation','Testing', "Documentation"]}
 
         # Refresh table
-        with open(f, "r") as fp:
+        with open(dbname, "r") as fp:
             line = fp.readline().strip()
             cnt = 0
             while line:
@@ -76,10 +76,10 @@ while (1):
                 value = [a[2], a[3], a[4], a[5]]
                 line = fp.readline().strip()
                 cnt += 1
-                d[a[0] + " " + a[1]] = value
+                rubric[a[0] + " " + a[1]] = value
 
         # Display Table
-        for k, v in d.items():
+        for k, v in rubric.items():
             lang, perc, change, doc = v
             print ("{:<18} {:<10} {:<15} {:<11} {:<11}".format(k, lang, perc, change, doc))
 
