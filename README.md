@@ -10,6 +10,7 @@ Storing Information is a software component for storing information about studen
 ## Install python
 On MacOS
 > brew install python
+
 On window/Linux
 > sudo apt install python3.8
 > sudo yum|dnf install python3.8
